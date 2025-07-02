@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.left {
+  width: 350px;
+}
+
+.left ul {
+  list-style-type: none;
+}
+
+.left ul li {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 100ms ease-in;
+  cursor: pointer;
+}
+
+.left ul li:hover {
+  border-bottom: 2px solid orange;
+  background-color: #f9f9f9;
+}
+
+.right {
+  width: 1035px;
+  height: 383px;
+  padding: 0;
+  border-left: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-box {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://cdn.deepcool.com/global/news/2022-07/1657162056-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.hover-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hover-content h3 {
+  font-size: 28px;
+  color: #333;
+}
+
+.hover-content p {
+  font-size: 18px;
+  color: #555;
+}
